@@ -1,0 +1,179 @@
+/* Franklin Gothic Font */
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-book-webfont.eot');
+	src: url('/fonts/franklingothic-book-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-book-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-book-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-book-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-book-webfont.svg#franklin_gothic_fsbook') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-bookit-webfont.eot');
+	src: url('/fonts/franklingothic-bookit-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-bookit-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-bookit-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-bookit-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-bookit-webfont.svg#franklin_gothic_fsbook_italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-med-webfont.eot');
+	src: url('/fonts/franklingothic-med-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-med-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-med-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-med-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-med-webfont.svg#franklin_gothic_fsMdIt') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-medit-webfont.eot');
+	src: url('/fonts/franklingothic-medit-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-medit-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-medit-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-medit-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-medit-webfont.svg#franklin_gothic_fsMdIt') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-med-webfont.eot');
+	src: url('/fonts/franklingothic-med-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-med-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-med-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-med-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-med-webfont.svg#franklin_gothic_fsMdIt') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-medit-webfont.eot');
+	src: url('/fonts/franklingothic-medit-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-medit-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-medit-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-medit-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-medit-webfont.svg#franklin_gothic_fsMdIt') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-demi-webfont.eot');
+	src: url('/fonts/franklingothic-demi-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-demi-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-demi-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-demi-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-demi-webfont.svg#franklin_gothic_fsdemi') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'franklin_gothic';
+	src: url('/fonts/franklingothic-demiit-webfont.eot');
+	src: url('/fonts/franklingothic-demiit-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/franklingothic-demiit-webfont.woff2') format('woff2'),
+		 url('/fonts/franklingothic-demiit-webfont.woff') format('woff'),
+		 url('/fonts/franklingothic-demiit-webfont.ttf') format('truetype'),
+		 url('/fonts/franklingothic-demiit-webfont.svg#franklin_gothic_fsdemi_italic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+/* Princeton Monticello Font */
+@font-face {
+	font-family: 'princeton_monticello';
+	src: url('/fonts/hinted-PrincetonMonti-Regular.eot');
+	src: url('/fonts/hinted-PrincetonMonti-Regular.eot?#iefix') format('embedded-opentype'),
+	  url('/fonts/hinted-PrincetonMonti-Regular.woff2') format('woff2'),
+	  url('/fonts/hinted-PrincetonMonti-Regular.woff') format('woff'),
+	  url('/fonts/hinted-PrincetonMonti-Regular.ttf') format('truetype'),
+	  url('/fonts/hinted-PrincetonMonti-Regular.svg#PrincetonMonti-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'princeton_monticello';
+	src: url('/fonts/PrincetonMonti-Italic.eot');
+	src: url('/fonts/PrincetonMonti-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/PrincetonMonti-Italic.woff2') format('woff2'),
+		url('/fonts/PrincetonMonti-Italic.woff') format('woff'),
+		url('/fonts/PrincetonMonti-Italic.ttf') format('truetype'),
+		url('/fonts/PrincetonMonti-Italic.svg#PrincetonMonti-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'princeton_monticello';
+	src: url('/fonts/PrincetonMontiBD-Regular.eot');
+	src: url('/fonts/PrincetonMontiBD-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/PrincetonMontiBD-Regular.woff2') format('woff2'),
+		url('/fonts/PrincetonMontiBD-Regular.woff') format('woff'),
+		url('/fonts/PrincetonMontiBD-Regular.ttf') format('truetype'),
+		url('/fonts/PrincetonMontiBD-Regular.svg#PrincetonMontiBD-Regular') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'princeton_monticello';
+	src: url('/fonts/PrincetonMontiBD-Italic.eot');
+	src: url('/fonts/PrincetonMontiBD-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/fonts/PrincetonMontiBD-Italic.woff2') format('woff2'),
+		url('/fonts/PrincetonMontiBD-Italic.woff') format('woff'),
+		url('/fonts/PrincetonMontiBD-Italic.ttf') format('truetype'),
+		url('/fonts/PrincetonMontiBD-Italic.svg#PrincetonMontiBD-Italic') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+body {
+  font: 1rem/1.1 "franklin_gothic";
+}
+
+a {
+	color: #E77500;
+	text-decoration: none;
+}
+
+a:link {
+	
+}
+
+a:visited {
+/*	color: var(--bs-black);*/
+/*	text-decoration: none;*/
+}
+
+a:hover {
+	color: var(--bs-black);
+/*	text-decoration: none;*/
+
+}
+
+a:active {
+	 text-decoration: none;
+}
+
+.h7, h7 {
+	font: 2.5rem "princeton_monticello";
+}
