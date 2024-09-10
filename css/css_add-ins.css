@@ -272,8 +272,3 @@ a:active {
 	background-color: rgba(216, 149, 35, 0.5)!important
 }
 
-.ratio::before {
-display: block;
-padding-top: 0px;
-content: "";
-}
