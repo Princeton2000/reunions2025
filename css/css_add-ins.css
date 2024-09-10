@@ -274,6 +274,6 @@ a:active {
 
 .ratio::before {
 display: block;
-padding-top: 450px;
+padding-top: 0px;
 content: "";
 }
