@@ -265,14 +265,10 @@ a:active {
 .accordion-button:not(.collapsed) {
 	border-style: none;
 	color: #EE7F2D;
-	background-color: #F2F2F4
+	background-color: var(--bs-border-color-translucent)
 }
 
 .text-bg-primary {
 	background-color: rgba(216, 149, 35, 0.5)!important
 }
 
-/*@media (prefers-color-scheme: dark) {*/
-/*	svg {fill:white;}*/
-/*	path { fill: white; }*/
-/*}*/
