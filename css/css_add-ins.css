@@ -271,3 +271,8 @@ a:active {
 .text-bg-primary {
 	background-color: rgba(216, 149, 35, 0.5)!important
 }
+
+/*@media (prefers-color-scheme: dark) {*/
+/*	svg {fill:white;}*/
+/*	path { fill: white; }*/
+/*}*/
