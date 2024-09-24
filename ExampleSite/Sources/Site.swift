@@ -43,7 +43,7 @@ struct Princeton2000: Site {
 		faq()
 		Jacket()
 		Prade()
-//		TableVideo()
+		// TableVideo()
 		Dues()
 		AnnualGiving()
 	}
