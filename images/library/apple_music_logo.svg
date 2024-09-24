@@ -5,7 +5,7 @@
 	 	<style>
 		:root { --color: #00FF00; }
 		@media (prefers-color-scheme: light) { :root { --color: #000000; } }
-		@media (prefers-color-scheme: dark) { :root { --color: #FFFFFF; } }
+		@media (prefers-color-scheme: dark) { :root { --color: #BBBBBB; } }
 		path {
 			fill: var(--color);
 			stroke: none;
