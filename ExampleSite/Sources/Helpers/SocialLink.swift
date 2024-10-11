@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  SocialLink.swift
 //  IgniteStarter
 //
 //  Created by Justin Purnell on 8/5/24.

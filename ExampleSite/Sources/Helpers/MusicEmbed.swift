@@ -1,9 +1,9 @@
-	//
-	//  MusicEmbed.swift
-	//  IgniteStarter
-	//
-	//  Created by Justin Purnell on 8/22/24.
-	//
+//
+//  MusicEmbed.swift
+//  IgniteStarter
+//
+//  Created by Justin Purnell on 8/22/24.
+//
 
 import Ignite
 

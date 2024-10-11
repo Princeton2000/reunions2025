@@ -44,6 +44,7 @@ struct Princeton2000: Site {
 		Gear()
 		Prade()
 //		TableVideo()
+		Colophon()
 		Dues()
 	}
 	

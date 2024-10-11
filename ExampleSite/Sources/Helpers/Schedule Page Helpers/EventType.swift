@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  EventType.swift
 //  IgniteStarter
 //
 //  Created by Justin Purnell on 8/7/24.

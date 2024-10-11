@@ -1,9 +1,9 @@
-	//
-	//  libararyRow.swift
-	//  IgniteStarter
-	//
-	//  Created by Justin Purnell on 9/3/24.
-	//
+//
+//  libararyRow.swift
+//  IgniteStarter
+//
+//  Created by Justin Purnell on 9/3/24.
+//
 
 import Foundation
 import Ignite

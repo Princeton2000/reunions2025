@@ -1,5 +1,5 @@
 //
-//  GearCard.swift
+//  merchCard.swift
 //  IgniteStarter
 //
 //  Created by Justin Purnell on 10/7/24.

@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  eventRow.swift
 //  IgniteStarter
 //
 //  Created by Justin Purnell on 8/12/24.

@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Classmate.swift
 //  IgniteStarter
 //
 //  Created by Justin Purnell on 9/3/24.
