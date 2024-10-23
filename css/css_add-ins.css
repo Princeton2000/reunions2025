@@ -171,7 +171,7 @@
 }
 /* Tay Lennon Font */
 @font-face {
-	font-family: 'tay_lennon';
+	font-family: 'TAYLennonRegular';
 	src: url('/fonts/tayLennon/TAYLennon.eot');
 	src: url('/fonts/tayLennon/TAYLennon.eot?#iefix') format('embedded-opentype'),
 	  url('/fonts/tayLennon/TAYLennon.woff2') format('woff2'),
@@ -284,3 +284,6 @@ a:active {
 	background-color: rgba(216, 149, 35, 0.5)!important
 }
 
+b, strong {
+	font-weight: 600;
+}
