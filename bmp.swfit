@@ -1,0 +1,83 @@
+Here is an updated version of your code that is compatible with Swift 5.9. The Swift code is modified to use newer APIs, conforms to best practices, and utilizes optional handling where applicable. Note that I've updated the use of `CGImage` and `NSColor` as appropriate.
+
+```swift
+import CoreGraphics
+import UIKit // Use UIKit if you're targeting iOS; use AppKit for macOS
+
+func createARGBBitmapContext(inImage: CGImage) -> CGContext? {
+    // Get image width and height
+    let pixelsWide = inImage.width
+    let pixelsHigh = inImage.height
+
+    // Declare the number of bytes per row. Each pixel is represented by 4 bytes.
+    let bitmapBytesPerRow = pixelsWide * 4
+    let bitmapByteCount = bitmapBytesPerRow * pixelsHigh
+
+    // Use the generic RGB color space.
+    guard let colorSpace = CGColorSpace(name: CGColorSpace.sRGB) else { return nil }
+
+    // Allocate memory for image data
+    guard let bitmapData = malloc(bitmapByteCount) else { return nil }
+
+    // Create the bitmap context
+    guard let context = CGContext(data: bitmapData,
+                                  width: pixelsWide,
+                                  height: pixelsHigh,
+                                  bitsPerComponent: 8,
+                                  bytesPerRow: bitmapBytesPerRow,
+                                  space: colorSpace,
+                                  bitmapInfo: CGImageAlphaInfo.premultipliedFirst.rawValue) else {
+        free(bitmapData)
+        return nil
+    }
+
+    return context
+}
+
+func getPixelColorAtLocation(point: CGPoint, inImage: CGImage) -> UIColor? {
+    guard point.x >= 0, point.x < CGFloat(inImage.width),
+          point.y >= 0, point.y < CGFloat(inImage.height) else {
+        return nil // Out of bounds
+    }
+
+    // Create offscreen bitmap context to draw the image into
+    guard let context = createARGBBitmapContext(inImage: inImage) else { return nil }
+
+    let pixelsWide = inImage.width
+    let pixelsHigh = inImage.height
+    let rect = CGRect(x: 0, y: 0, width: pixelsWide, height: pixelsHigh)
+
+    // Clear the context
+    context.clear(rect)
+
+    // Draw the image to the bitmap context
+    context.draw(inImage, in: rect)
+
+    // Now, get a pointer to the image data associated with the bitmap context
+    guard let data = context.data else { return nil }
+
+    let dataType = data.bindMemory(to: UInt8.self, capacity: pixelsWide * pixelsHigh * 4)
+    let offset = 4 * ((Int(pixelsWide) * Int(point.y)) + Int(point.x))
+    
+    let alpha = dataType[offset]
+    let red = dataType[offset + 1]
+    let green = dataType[offset + 2]
+    let blue = dataType[offset + 3]
+
+    let color = UIColor(red: CGFloat(red) / 255.0, 
+                        green: CGFloat(green) / 255.0, 
+                        blue: CGFloat(blue) / 255.0, 
+                        alpha: CGFloat(alpha) / 255.0)
+
+    return color
+}
+```
+
+### Key Updates:
+1. Made use of `guard` statements for safer handling of optionals.
+2. Updated to use `UIColor` instead of `NSColor`, as `NSColor` is typically used in macOS applications.
+3. Changed the memory allocation and binding to use Swift's type-safe `bindMemory` for accessing the pixel data.
+4. Checked bounds of `point` to ensure valid pixel access.
+5. Used CGContext's methods that directly match Swift 5.9 and newer syntax.
+
+Make sure you add the proper imports (UIKit or AppKit) based on your target platform. For example, if you are developing for macOS, you should replace `UIColor` with `NSColor` and import `AppKit`.
