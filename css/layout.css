@@ -57,8 +57,10 @@ body {
 img[src*="apple_music_logo"],
 img[src*="Spotify_logo"],
 img[src*="AmazonMusicLogo"] {
-	display: inline !important;
+	display: inline-block !important;
 	cursor: pointer;
 	padding-top: 0 !important;
 	padding-bottom: 0 !important;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
