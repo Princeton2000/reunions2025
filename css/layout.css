@@ -1,5 +1,5 @@
 body {
-  font: 0.875rem/1.15 "Libre Franklin";
+  font: 1rem/1.15 "Libre Franklin";
   line-height: 1.15rem;
   text-wrap: pretty;
 }
@@ -52,4 +52,11 @@ body {
 
 *, ::before {
 	line-height: 1.15em;
+}
+
+img[src*="apple_music_logo"],
+img[src*="Spotify_logo"],
+img[src*="AmazonMusicLogo"] {
+	display: inline !important;
+	cursor: pointer;
 }
