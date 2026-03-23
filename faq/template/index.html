@@ -88,6 +88,12 @@
     "name": "Alumni Association of Princeton University",
     "url": "https://alumni.princeton.edu"
   },
+  "knowsAbout": ["Princeton University", "Alumni Relations", "Class Reunions", "Princeton Class of 2000"],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "alumni relations",
+    "url": "https://reunions.princeton2000.org/officers/"
+  },
   "sameAs": [
     "https://www.instagram.com/princetonclassof2000/",
     "https://bsky.app/profile/princeton2000.org",
@@ -122,8 +128,8 @@
           <div class="me-2 me-md-auto">
             <a href="/" class="d-inline-flex align-items-center navbar-brand"> <img src="/images/logos/P2000_25th_TigerHead_BECW.svg" alt="Princeton 2000 Tiger Logo" aria-label="Princeton 2000 Tiger Logo" class="img-fluid mx-auto" style="width: 100px; height: 100px" /> 
               <div style="text-align: center;">
-                <h3 style="font-family: TAYLennonRegular; font-size: calc(1.2rem + .5vw); color: #EE7F2D; line-height: 2rem; margin-bottom: 0rem; text-align: center;">Princeton 2000</h3>
-                <h6 style="font-family: TAYLennonRegular; font-size: calc(0.55rem + 0.5vw); color: var(--bs-body-color); line-height: 1rem; padding: 0em; margin-bottom: 0rem; letter-spacing: .10rem;">Bid Every Care Withdraw</h6>
+                <span style="font-family: TAYLennonRegular; font-size: calc(1.2rem + .5vw); color: #EE7F2D; line-height: 2rem; margin-bottom: 0rem; text-align: center; display: block;">Princeton 2000</span>
+                <span style="font-family: TAYLennonRegular; font-size: calc(0.55rem + 0.5vw); color: var(--bs-body-color); line-height: 1rem; padding: 0em; margin-bottom: 0rem; letter-spacing: .10rem; display: block;">Bid Every Care Withdraw</span>
               </div></a>
           </div>
           <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -160,26 +166,53 @@
       <h6><a rel="tag" href="/tags/template/"><span class="badge text-bg-primary rounded-pill">template</span></a></h6>
       <p></p>
     </div>
-    <div id="accordionsk43H" class="accordion">
+    <script>// FAQPage structured data
+(function() {
+    var s = document.createElement('script');
+    s.type = 'application/ld+json';
+    s.text = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [    {"@type":"Question","name":"Is it still possible to add products (umbrella, hats, etc) to our registration?","acceptedAnswer":{"@type":"Answer","text":"<p>You can’t add to your registration anymore, because we are busy sorting the items people have already purchased. When you get to campus, the “store” will be open you’ll be able to buy stuff on site. We’re switching over to a new infrastructure that can do mobile orders and will be our store post-Reunions</p>"}},
+    {"@type":"Question","name":"If we are staying on campus, are bedding (sheets, blankets) and towels provided","acceptedAnswer":{"@type":"Answer","text":"<p>If you elected the optional $30 linen rental package at registration, you will be provided with two sheets, a pillow and pillowcase, a blanket, two bath towels, and a washcloth for use during your stay.</p>"}},
+    {"@type":"Question","name":"template","acceptedAnswer":{"@type":"Answer","text":""}}]
+    });
+    document.head.appendChild(s);
+})();</script>
+    <script>// BreadcrumbList structured data
+(function() {
+    var s = document.createElement('script');
+    s.type = 'application/ld+json';
+    s.text = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type":"ListItem","position":1,"name":"Home","item":"https://reunions.princeton2000.org/"},
+            {"@type":"ListItem","position":2,"name":"template","item":"https://reunions.princeton2000.org/faq/template"}
+        ]
+    });
+    document.head.appendChild(s);
+})();</script>
+    <div id="accordiontfbcJ" class="accordion">
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionsk43H-itemL72CO" aria-expanded="false" aria-controls="accordionsk43H-itemL72CO">Is it still possible to add products (umbrella, hats, etc) to our registration?</button></h2>
-        <div id="accordionsk43H-itemL72CO" class="accordion-collapse collapse" data-bs-parent="#accordionsk43H">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordiontfbcJ-itemsi2Rm" aria-expanded="false" aria-controls="accordiontfbcJ-itemsi2Rm">Is it still possible to add products (umbrella, hats, etc) to our registration?</button></h2>
+        <div id="accordiontfbcJ-itemsi2Rm" class="accordion-collapse collapse" data-bs-parent="#accordiontfbcJ">
           <div class="accordion-body">
             <p>You can’t add to your registration anymore, because we are busy sorting the items people have already purchased. When you get to campus, the “store” will be open you’ll be able to buy stuff on site. We’re switching over to a new infrastructure that can do mobile orders and will be our store post-Reunions </p>
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionsk43H-item413Bh" aria-expanded="false" aria-controls="accordionsk43H-item413Bh">If we are staying on campus, are bedding (sheets, blankets) and towels provided</button></h2>
-        <div id="accordionsk43H-item413Bh" class="accordion-collapse collapse" data-bs-parent="#accordionsk43H">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordiontfbcJ-itemMovbD" aria-expanded="false" aria-controls="accordiontfbcJ-itemMovbD">If we are staying on campus, are bedding (sheets, blankets) and towels provided</button></h2>
+        <div id="accordiontfbcJ-itemMovbD" class="accordion-collapse collapse" data-bs-parent="#accordiontfbcJ">
           <div class="accordion-body">
             <p>If you elected the optional $30 linen rental package at registration, you will be provided with two sheets, a pillow and pillowcase, a blanket, two bath towels, and a washcloth for use during your stay. </p>
           </div>
         </div>
       </div>
       <div class="accordion-item">
-        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordionsk43H-itemERjZY" aria-expanded="false" aria-controls="accordionsk43H-itemERjZY">template</button></h2>
-        <div id="accordionsk43H-itemERjZY" class="accordion-collapse collapse" data-bs-parent="#accordionsk43H">
+        <h2 class="accordion-header"><button type="button" class="accordion-button collapsed btn" data-bs-toggle="collapse" data-bs-target="#accordiontfbcJ-itemsMsv5" aria-expanded="false" aria-controls="accordiontfbcJ-itemsMsv5">template</button></h2>
+        <div id="accordiontfbcJ-itemsMsv5" class="accordion-collapse collapse" data-bs-parent="#accordiontfbcJ">
           <div class="accordion-body">
             <p></p>
           </div>
@@ -197,8 +230,8 @@
 </script> 
     <!-- Update at https://app.behold.so/feeds/dvwC0tvXxob5SIUNXAys/embed_code --> 
     <div class="mt-auto"></div>
-    <h6 class="text-body-tertiary" style="font: 1rem/4.0">© 2026 Princeton Class of 2000. All Rights Reserved.</h6>
-    <h6 class="text-body-tertiary" style="font: 1rem/4.0">Created with <a href="https://github.com/twostraws/Ignite">Ignite</a></h6>
+    <p class="text-body-tertiary" style="font: 1rem/4.0">© 2026 Princeton Class of 2000. All Rights Reserved.</p>
+    <p class="text-body-tertiary" style="font: 1rem/4.0">Created with <a href="https://github.com/twostraws/Ignite">Ignite</a> | <a href="/privacy/">Privacy Policy</a></p>
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/ignite-core.js"></script>
   </body>
