@@ -59,4 +59,6 @@ img[src*="Spotify_logo"],
 img[src*="AmazonMusicLogo"] {
 	display: inline !important;
 	cursor: pointer;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
 }
